@@ -43,7 +43,7 @@ class _WeatherState extends State<Weather> {
       imageShow = "assets/animation_widgets/sunny clear day.json";
     } else if (id == 801 || id == 804 || id == 803) {
       imageShow = "assets/animation_widgets/cloudy.json";
-    } else if (id == 701 || id == 711 || id == 741) {
+    } else if (id == 701 || id == 711 || id == 741 || id == 721) {
       imageShow = "assets/animation_widgets/fog.json";
     } else if (id == 800 && backgroundColor == "n") {
       imageShow = "assets/animation_widgets/night clear.json";
